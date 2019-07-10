@@ -258,6 +258,7 @@ input[type="search"]:focus::-moz-placeholder {
 
 .user-account {
   display: inline-block;
+  vertical-align: middle;
   position: absolute;
   background-color: #ffffff;
   min-width: 300px;
@@ -738,13 +739,14 @@ body {
 
 .page-title {
   display: inline-block;
+  vertical-align: top;
   position: absolute;
   padding: 0;
-  margin-left: -10px;
   margin-left: 43px;
   margin-top: 3px;
   height: 60px;
   width: 197px;
+
 }
 
 .contacts-header {
@@ -855,6 +857,7 @@ body {
 
 .promo-item {
   display: inline-block;
+  vertical-align: middle;
   position: relative;
   height: 123px;
   min-width: 300px;
@@ -1022,6 +1025,7 @@ body {
 
 .promo-slider {
   display: inline-block;
+  vertical-align: middle;
   position: absolute;
   width: 621px;
   height: 267px;
@@ -1266,8 +1270,8 @@ body {
 
 .catalog-item .flag {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -2px;
+  right: -1px;
   width: 60px;
   height: 60px;
   text-indent: -1000px;
@@ -1293,6 +1297,7 @@ body {
 .catalog-item .actions .buy,
 .catalog-item .actions .bookmark {
   display: inline-block;
+  vertical-align: middle;
   width: 129px;
   margin: 0 auto;
   margin-bottom: 7px;
@@ -2243,6 +2248,7 @@ input[type="range"]::-moz-range-progress {
 
 .catalog-description-wrapper {
   display: inline-block;
+  vertical-align: middle;
   margin: 0 auto;
   margin-top: 67px;
   width: 938px;
